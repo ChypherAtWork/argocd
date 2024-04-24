@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/ChypherAtWork/argocd.git
-    targetRevision: HEAD
+    targetRevision: master
     path: ./declarative/app-of-apps
   destination:
     server: https://kubernetes.default.svc
